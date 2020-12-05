@@ -1,0 +1,9 @@
+body {
+    background-color: #c6fced;
+}
+
+img {
+max-width: 20%;
+height: auto;
+border-radius: 45%;
+}
