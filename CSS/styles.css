@@ -1,9 +1,18 @@
 body {
-    background-color: #c6fced;
+    background-color: #e4f9f5;
 }
 
 img {
 max-width: 20%;
 height: auto;
 border-radius: 45%;
+border: 5px solid #61c0bf;
+}
+
+h1{
+    color: #3d84a8;
+}
+
+p{
+    color: #61c0bf;
 }
