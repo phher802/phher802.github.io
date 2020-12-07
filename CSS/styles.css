@@ -15,32 +15,87 @@ body {
 
 }
 
-.top-cloud {
+.island {
+    max-width: 40%;
+
+    margin: 0 auto;
+    position: relative;
+
+}
+
+
+.cloud-1 {
     max-width: 10%;
+    margin: 0 auto;
+
+    position: absolute;
+    left: 0%;
+    top: 15%
+}
+
+.cloud-2 {
+    max-width: 10%;
+    margin: 0 auto;
+
+    position: absolute;
+    left: 0%;
+    top: 25%;
+
+}
+
+
+.cloud-3 {
+
+    max-width: 10%;
+    margin: 0 auto;
+
+    position: absolute;
+    right: 30%;
+    top: 50 %;
+}
+
+.cloud-4 {
+    max-width: 8%;
+    margin: 0 auto;
+
+    position: absolute;
+    left: 30%;
+    top: 60%;
+}
+
+.cloud-5 {
+    max-width: 6%;
     margin: 0 auto;
 
     position: absolute;
     left: 20%;
-    top: 15%;
-
+    top: 75%;
 }
 
-.bottom-cloud {
-    max-width: 10%;
-    margin: 0 auto;
+/* @keyframes float-in {
+    0% {
+        opacity: 0;
+        transform: translateX(1500px);
+    }
 
-    position: absolute;
-    left: 70%;
+    100% {
+        opacity: 1;
+        transform: none;
+    }
 }
 
-.img-3 {
-    max-width: 40%;
-    position: relative;
-    margin: 0 auto;
+.clouds-animate-1 {
+    animation: float-in 10s ease-in 3s infinite;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
 }
 
+.clouds-animate-2 {
+    animation: float-in 10s ease-in 5s infinite;
+    animation-direction: reverse;
+    animation-fill-mode: backwards; */
 
-
+}
 
 h1 {
     color: #3d84a8;
@@ -61,11 +116,12 @@ p {
     margin: 0 auto 0 auto;
 }
 
-@keyframes slide-in{
+@keyframes slide-in {
     0% {
         opacity: 0;
         transform: translateY(100px) scale(.9);
     }
+
     100% {
         opacity: 1;
         transform: none;
@@ -73,10 +129,13 @@ p {
 
 }
 
-.animate-in{
+.animate-in {
     animation: slide-in .8s;
+    animation-fill-mode: backwards;
 }
 
+.delay1 {
+    animation-delay: .1s;
 }
 
 .top-container {
@@ -85,8 +144,8 @@ p {
     padding-top: 10%;
 
     position: relative;
-
-
+    top: 0;
+    left: 0;
 
 }
 
@@ -101,9 +160,9 @@ p {
 
 }
 
-.bottom-container {
+.contact-me {
     padding: 10px;
     position: relative;
-    
+
 
 }
