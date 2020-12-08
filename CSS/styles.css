@@ -1,36 +1,36 @@
 body {
     background-color: #e4f9f5;
     margin: 0;
-    text-align: center;
-    font-family: verdana, sans-serif;
+
 }
+
+
 
 .self {
     max-width: 500px;
-    height: 500px;
-    margin: 0 auto;
-    position: relative;
+    height: 450px;
 
-    /* left: 7%; */
+    position: relative;
+    left: 20%;
 
 }
 
 .island {
     max-width: 40%;
 
-    margin: 0 auto;
+    margin: 20px auto;
     position: relative;
 
 }
 
 
 .cloud-1 {
-    max-width: 10%;
+    max-width: 6%;
     margin: 0 auto;
 
     position: absolute;
-    left: 0%;
-    top: 15%
+    left: 25%;
+    top: 70%
 }
 
 .cloud-2 {
@@ -38,20 +38,20 @@ body {
     margin: 0 auto;
 
     position: absolute;
-    left: 0%;
-    top: 25%;
+    left: 30%;
+    top: 40%;
 
 }
 
 
 .cloud-3 {
 
-    max-width: 10%;
+    max-width: 9%;
     margin: 0 auto;
 
     position: absolute;
-    right: 30%;
-    top: 50 %;
+    right: 20%;
+    top: 70%;
 }
 
 .cloud-4 {
@@ -59,20 +59,20 @@ body {
     margin: 0 auto;
 
     position: absolute;
-    left: 30%;
-    top: 60%;
+    left: 35%;
+    top: 55%;
 }
 
 .cloud-5 {
-    max-width: 6%;
+    max-width: 10%;
     margin: 0 auto;
 
     position: absolute;
-    left: 20%;
-    top: 75%;
+    left: 55%;
+    top: 45%;
 }
 
-/* @keyframes float-in {
+@keyframes float-in {
     0% {
         opacity: 0;
         transform: translateX(1500px);
@@ -84,36 +84,85 @@ body {
     }
 }
 
-.clouds-animate-1 {
-    animation: float-in 10s ease-in 3s infinite;
+/* .clouds-animate-1 {
+    animation: float-in 8s ease-in 1s infinite;
     animation-direction: reverse;
     animation-fill-mode: backwards;
 }
 
 .clouds-animate-2 {
-    animation: float-in 10s ease-in 5s infinite;
+    animation: float-in 8s ease-in 1s infinite;
     animation-direction: reverse;
-    animation-fill-mode: backwards; */
+    animation-fill-mode: backwards;
+}
+
+.clouds-animate-3 {
+    animation: float-in 8s ease-in 1s infinite;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+}
+
+.clouds-animate-4 {
+    animation: float-in 8s ease-in 1s infinite;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+}
+
+.clouds-animate-5 {
+    animation: float-in 10s ease-in 1s infinite;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
 
 }
+ */
 
 h1 {
     color: #3d84a8;
     margin: 0 auto 0 auto;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Euphoria Script', cursive;
     font-size: 50px;
+}
+
+
+h2 {
+    color: #3d84a8;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
     color: #3d84a8;
-    margin: 0 auto 0 auto;
-    padding-top: 10px;
+    margin: 10px auto 0 auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
     font-family: 'Montserrat', sans-serif;
 }
 
 p {
-    color: #61c0bf;
+    color: #2b2e4a;
     margin: 0 auto 0 auto;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 6%;
+    margin: 100px auto;
+}
+
+a {
+    color: #61c0bf;
+    text-decoration: none;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    color: white;
+
 }
 
 @keyframes slide-in {
@@ -130,7 +179,7 @@ p {
 }
 
 .animate-in {
-    animation: slide-in .8s;
+    animation: slide-in .8s ease-in;
     animation-fill-mode: backwards;
 }
 
@@ -138,31 +187,227 @@ p {
     animation-delay: .1s;
 }
 
+
+
 .top-container {
     background-color: #a6e3e9;
     margin-bottom: 0;
     padding-top: 10%;
-
+    text-align: center;
     position: relative;
     top: 0;
     left: 0;
 
 }
 
-
 .middle-container {
     background-color: #c4edde;
-    margin: 0 auto;
-    padding: 0;
+    display: flex;
+    margin: auto;
+    padding: 10px;
 
     position: relative;
     /* left: 40%;  */
 
 }
 
-.contact-me {
+.self-box:first-child {
+    max-width: 800px;
+    width: 100%;
+    flex: 1;
+    margin: auto;
     padding: 10px;
+    text-align: center;
+}
+
+.hello {
+    max-width: 800px;
+    width: 100%;
+    flex: 1;
+    padding: 40px;
+    margin: auto;
+    font-family: 'Gayathri', sans-serif;
+    text-align: left;
+
+}
+
+.contact-me {
+    text-align: center;
     position: relative;
+    padding-top: 1%;
+    padding-bottom: 10%;
+
+}
+
+.my-interests {
+    width: 60%;
+}
+
+.bottom-container {
+    background-color: #c4edde;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    padding: 50px 0 20px;
+}
+
+.btn {
+    background: #19bac2;
+    background-image: -webkit-linear-gradient(top, #3d84a8, #11999E);
+    background-image: -moz-linear-gradient(top, #19bac2, #11999E);
+    background-image: -ms-linear-gradient(top, #19bac2, #11999E);
+    background-image: -o-linear-gradient(top, #19bac2, #11999E);
+    background-image: linear-gradient(to bottom, #19bac2, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.copyright {
+    padding: 20px 0;
+    color: #61c0bf;
+}
+
+.font-monts {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-me-container {
+    background-color: #ffc8c8;
+    color: #2b2e4a;
+
+    text-align: left;
+    margin: auto;
+    padding: 10%;
+
+}
+
+.travel-container {
+    background-color: #bbded6;
+    color: #2b2e4a;
+
+    text-align: left;
+    margin: auto;
+    padding: 10%;
+}
+
+.hmong-history {
+    background-color: #fae3d9;
+    color: #2b2e4a;
+
+    text-align: left;
+    margin: auto;
+    padding: 10%;
+}
 
 
+.japan-img {
+    width: 30%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.capetown-img {
+    width: 30%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px
+}
+
+.thailand-img {
+    width: 30%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px
+}
+
+.hmong-img-1 {
+    width: 30%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px
+}
+
+.hmong-img-2 {
+    width: 30%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px
+}
+
+.hmong-link {
+    margin: 20px 20px;
+    font-size: 150%;
+}
+
+.hmong-video-description {
+
+    padding: 20px 0;
+
+}
+
+.current-project-container {
+    background-color: #bad7df;
+    margin: auto;
+    padding: 20px;
+
+
+}
+
+.projects-title {
+    margin: 20px auto 20px 20px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card-header {
+    background-color: #c9d6df;
+}
+
+.topnav {
+    background-color: #3d84a8;
+
+    overflow: hidden;
+}
+
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #a6e3e9;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #a6e3e9;
+    color: black;
 }
