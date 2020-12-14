@@ -5,7 +5,6 @@ body {
 }
 
 
-
 .self {
     max-width: 500px;
     height: 450px;
@@ -22,7 +21,6 @@ body {
     position: relative;
 
 }
-
 
 .cloud-1 {
     max-width: 6%;
@@ -186,8 +184,6 @@ a:hover {
 .delay1 {
     animation-delay: .1s;
 }
-
-
 
 .top-container {
     background-color: #a6e3e9;
@@ -357,17 +353,13 @@ a:hover {
 }
 
 .hmong-video-description {
-
     padding: 20px 0;
-
 }
 
 .current-project-container {
     background-color: #bad7df;
     margin: auto;
     padding: 20px;
-
-
 }
 
 .projects-title {
@@ -384,11 +376,8 @@ a:hover {
 
 .topnav {
     background-color: #3d84a8;
-
     overflow: hidden;
 }
-
-
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -410,4 +399,11 @@ a:hover {
 .topnav a.active {
     background-color: #a6e3e9;
     color: black;
+}
+
+.truncate {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
