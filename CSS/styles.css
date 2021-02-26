@@ -1,12 +1,12 @@
 body {
-    background-color: #e4f9f5;
+    background-color: #bbded6;
     margin: 0;
 
 }
 
 
 .self {
-    max-width: 500px;
+    s max-width: 500px;
     height: 450px;
 
     position: relative;
@@ -284,8 +284,27 @@ a:hover {
 }
 
 .about-me-container {
-    background-color: #ffc8c8;
+    background-color: #fae3d9;
     color: #2b2e4a;
+
+    text-align: left;
+    margin: auto;
+    padding: 5%;
+
+}
+
+.about-me-container h1 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.coding-container h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.coding-container {
 
     text-align: left;
     margin: auto;
@@ -294,15 +313,6 @@ a:hover {
 }
 
 .travel-container {
-    background-color: #bbded6;
-    color: #2b2e4a;
-
-    text-align: left;
-    margin: auto;
-    padding: 5%;
-}
-
-.hmong-history {
     background-color: #fae3d9;
     color: #2b2e4a;
 
@@ -311,6 +321,26 @@ a:hover {
     padding: 5%;
 }
 
+.travel-container h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hmong-history {
+
+    color: #2b2e4a;
+
+    text-align: left;
+    margin: auto;
+    padding: 5%;
+}
+
+.hmong-history h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 .japan-img {
     width: 30%;
@@ -406,4 +436,8 @@ a:hover {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.href-text-inline {
+    color: #2b2e4a;
 }
