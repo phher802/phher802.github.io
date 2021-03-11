@@ -6,7 +6,7 @@ body {
 
 
 .self {
-    s max-width: 500px;
+    max-width: 500px;
     height: 450px;
 
     position: relative;
