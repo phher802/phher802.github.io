@@ -149,6 +149,7 @@ hr {
     border-bottom: none;
     width: 6%;
     margin: 6.25rem auto;
+
 }
 
 a {
@@ -200,8 +201,7 @@ a:hover {
     background-color: #c4edde;
     display: flex;
     margin: auto;
-    padding: 0.625rem;
-
+    padding: 0.625rem 0;
     position: relative;
     /* left: 40%;  */
 
@@ -238,6 +238,8 @@ a:hover {
 .my-interests {
     width: 60%;
 }
+
+
 
 .bottom-container {
     background-color: #c4edde;
@@ -302,6 +304,7 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
     margin-top: 1rem;
     margin-bottom: 1rem;
+
 }
 
 .coding-container {
@@ -311,6 +314,12 @@ a:hover {
     padding: 5%;
 
 }
+
+.wdic {
+    column-count: 2;
+}
+
+
 
 .travel-container {
     background-color: #fae3d9;
@@ -407,7 +416,19 @@ a:hover {
 
 .topnav {
     background-color: #3d84a8;
-    overflow: hidden;
+    /* overflow: hidden; */
+    height: 5.5rem;
+    padding-left: .5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+}
+
+.main {
+    margin-top: 1.875rem;
 }
 
 /* Style the links inside the navigation bar */
@@ -418,6 +439,7 @@ a:hover {
     padding: 0.8rem 1rem;
     text-decoration: none;
     font-size: 1.06rem;
+
 }
 
 /* Change the color of links on hover */
