@@ -473,3 +473,10 @@ a:hover {
   grid-column: 4 / 5;
   width: 90%;
 }
+
+.japan-para {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
