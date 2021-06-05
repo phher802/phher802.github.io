@@ -480,3 +480,7 @@ a:hover {
   text-overflow: ellipsis;
   
 }
+
+.minimize p {
+  font-family: "Montserrat", sans-serif";
+}
