@@ -341,27 +341,20 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-.japan-img {
-  width: 90%;
+.travel-top-img{
+  width: 80%;
   border-radius: 30%;
   float: left;
   margin-right: 2rem;
   margin-top: 2rem;
+}
+
+.travel-img {
+  width: 80%;
+  border-radius: 30%;
+  float: left;
+  margin-right: 2rem;
   
-}
-
-.capetown-img {
-  width: 90%;
-  border-radius: 30%;
-  float: left;
-  margin-right: 2rem;
-}
-
-.thailand-img {
-  width: 90%;
-  border-radius: 30%;
-  float: left;
-  margin-right: 2rem;
 }
 
 .hmong-img-1 {
