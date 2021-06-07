@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/output.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Coiny&family=Euphoria+Script&family=Gayathri:wght@700&family=Montserrat:wght@300&family=Sacramento&family=Shadows+Into+Light+Two&display=swap"
@@ -74,46 +75,57 @@
         <br>
         <br>
         <div class="cape-town">
-            <img class="capetown-img" src="images/tableMtn.jpg" alt="table mountain">
-            <h1>Cape Town, South Africa</h1>
-            <p>
-                In 2014, I went to Cape Town, South Africa for a two-month, unpaid internship as part of my undergrad
-                program. I worked with the non-profit called Operation Smile, which help children undergo surgical
-                operations to fix their cleft palate. They do such amazing work, and I am grateful to have been a part
-                of
-                it. I only wished I was able to go along out into the field with the field team.
-                <br>
-                <br>
-                There are so many beautiful and romantic places around and in Cape Town. I went to several beaches,
-                hiked up
-                to Table Mountain (one of the Seven Wonders of the world), hiked other smaller mountains and hills,
-                visited
-                botanical gardens, whale watched, ate at many different food markets, and did some shopping. The only
-                thing
-                I didn’t do was a Safari. It was tempting but the excursion was for three days and I didn’t have that
-                kind
-                of time. One of the highlights during my time there, was when I took a trip out to Robben Island. It is
-                the
-                island where Nelson Mandela was imprisoned. The tour guide showed us his cell, where he sat to
-                read/write
-                his books, and his routines during imprisonment. Most of the tour guides used to be prison inmates, so
-                that
-                was interesting.
-                <br>
-                <br>
-                It was a very different experience from Japan, since it wasn’t as carefree and I didn’t feel that
-                peacefulness I felt in Japan, but it was still a very memorable and interesting experience. Even though
-                Cape
-                Town was beautiful, there was also the dark side of the city. There was a lot of theft and mugging, and
-                homelessness was also a big problem. Even after the apartheid, segregation was still very much alive.
-                Luckily, I did not experience anything worse than catcalls during my walks to and from my internship.
-                Cape Town has always been on my bucket list, although I never dreamt I’d be able to live there. The
-                experience will definitely stay with me. Unlike Japan and South Korea, I do not plan to go back to
-                visit. I
-                think Cape Town was great as a one-time experience.
-
-
-            </p>
+            <div class="grid-container">
+                <div class="grid-img">
+                    <img class="capetown-img" src="images/tableMtn.jpg" alt="table mountain">
+                </div>
+                <div class="grid-content">
+                    <h1>Cape Town, South Africa</h1>
+                    <div class="minimize">
+                        <p>
+                            In 2014, I went to Cape Town, South Africa for a two-month, unpaid internship as part of my undergrad
+                            program. I worked with the non-profit called Operation Smile, which help children undergo surgical
+                            operations to fix their cleft palate. They do such amazing work, and I am grateful to have been a part
+                            of
+                            it. I only wished I was able to go along out into the field with the field team.
+                            <br>
+                            <br>
+                            There are so many beautiful and romantic places around and in Cape Town. I went to several beaches,
+                            hiked up
+                            to Table Mountain (one of the Seven Wonders of the world), hiked other smaller mountains and hills,
+                            visited
+                            botanical gardens, whale watched, ate at many different food markets, and did some shopping. The only
+                            thing
+                            I didn’t do was a Safari. It was tempting but the excursion was for three days and I didn’t have that
+                            kind
+                            of time. One of the highlights during my time there, was when I took a trip out to Robben Island. It is
+                            the
+                            island where Nelson Mandela was imprisoned. The tour guide showed us his cell, where he sat to
+                            read/write
+                            his books, and his routines during imprisonment. Most of the tour guides used to be prison inmates, so
+                            that
+                            was interesting.
+                            <br>
+                            <br>
+                            It was a very different experience from Japan, since it wasn’t as carefree and I didn’t feel that
+                            peacefulness I felt in Japan, but it was still a very memorable and interesting experience. Even though
+                            Cape
+                            Town was beautiful, there was also the dark side of the city. There was a lot of theft and mugging, and
+                            homelessness was also a big problem. Even after the apartheid, segregation was still very much alive.
+                            Luckily, I did not experience anything worse than catcalls during my walks to and from my internship.
+                            Cape Town has always been on my bucket list, although I never dreamt I’d be able to live there. The
+                            experience will definitely stay with me. Unlike Japan and South Korea, I do not plan to go back to
+                            visit. I
+                            think Cape Town was great as a one-time experience.
+            
+            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        
         </div>
         <br>
         <br>
@@ -178,8 +190,8 @@ minimized_elements.each(function(){
     else return;
 
     $(this).html(
-        text_less + '<div>... </div><a href="#" style="font-family: Montserrat, sans-serif" class="more">More</a>'+
-        '<div style="display:none;">'+ text_more +' <a href="#" class="less">Less</a></div>'
+        text_less + '<div>... </div><a href="#" class="more">More</a>'+
+        '<div style="font-family: Montserrat, sans-serif">'+ text_more +' <a href="#" class="less">Less</a></div>'
     );
 }); 
 
