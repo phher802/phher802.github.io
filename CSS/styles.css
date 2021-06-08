@@ -357,6 +357,7 @@ a:hover {
   
 }
 
+
 .hmong-img-1 {
   width: 30%;
   border-radius: 10%;
@@ -467,12 +468,6 @@ a:hover {
   width: 90%;
 }
 
-.japan-para {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  
-}
 
 .minimize {
   font-family: "Montserrat", sans-serif;
