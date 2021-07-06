@@ -254,17 +254,14 @@ a:hover {
   background-color: #fae3d9;
   color: #2b2e4a;
   text-align: left;
-  margin: auto;
-  margin: 5% auto;
+  margin: 5rem auto 0;
   padding: 5%;
 }
 
 .coding-container {
   text-align: left;
-  margin: auto;
-  padding: 5%;
-  margin: 0;
-  padding: 0 5% 5%;
+  margin: 0 auto;
+  padding: 0 10%;
 }
 
 .travel-body {
@@ -300,13 +297,14 @@ a:hover {
 .coding-container {
 
   text-align: left;
-  margin: 0;
-  padding: 0 5% 5%;
+  margin: 0 auto;
+  padding: 5%;
 
 }
 
 .wdic {
   column-count: 2;
+  column-gap: 3%;
 }
 
 
@@ -337,7 +335,7 @@ a:hover {
 
 .hmong-history h1 {
   font-family: 'Montserrat', sans-serif;
-  margin-top: 5rem;
+  
   margin-bottom: 1rem;
 }
 
