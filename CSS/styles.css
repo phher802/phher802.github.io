@@ -215,7 +215,7 @@ a:hover {
 }
 
 .btn {
-  background: #fae3d9;
+  background: #3d84a8;
   /* background-image: -webkit-linear-gradient(top, #3d84a8, #11999E);
   background-image: -moz-linear-gradient(top, #19bac2, #11999E);
   background-image: -ms-linear-gradient(top, #19bac2, #11999E);
@@ -472,4 +472,8 @@ a:hover {
   line-height: 1.5;
   font-size: 1.25rem;
   
+}
+
+.card-header {
+  background-color: #fae3d9 ;
 }
