@@ -294,6 +294,16 @@ a:hover {
 
 }
 
+
+.sKorea-img {
+  width: 80%;
+  border-radius: 30%;
+  float: left;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+
+}
+
 .coding-container {
 
   text-align: left;
@@ -352,6 +362,7 @@ a:hover {
   border-radius: 30%;
   float: left;
   margin-right: 2rem;
+  margin-bottom: 1rem;
   
 }
 
