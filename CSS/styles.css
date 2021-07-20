@@ -301,7 +301,12 @@ a:hover {
   float: left;
   margin-right: 2rem;
   margin-bottom: 4rem;
+  padding-top: 2rem;
 
+}
+
+.south-korea {
+padding-bottom: 5%;
 }
 
 .south-korea h1 {
