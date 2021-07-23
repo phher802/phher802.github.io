@@ -1,11 +1,14 @@
 import React from "react";
-import Heading from "./Heading";
+import Home from "./Home";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 function App(){
     return (<div>
-        <Heading />
+       
         <NavBar />
+        <Home />
+        <Footer />
     </div>
     );
 }

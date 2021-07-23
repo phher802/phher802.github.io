@@ -167,6 +167,67 @@ a:hover {
   left: 0;
 }
 
+@media only screen and (max-width: 1000px){
+  .top-container {
+    padding-top: 15%;
+  }
+
+}
+
+@media only screen and (max-width: 800px){
+  .top-container {
+    padding-top: 20%;
+  }
+
+  .island {
+    max-width: 70%;
+    margin: 1.25rem auto;
+    position: relative;
+  }
+
+  .cloud-1 {
+    max-width: 11%;
+    margin: 0 auto;
+    position: absolute;
+    left: 10%;
+    top: 70%;
+  }
+  
+  .cloud-2 {
+    max-width: 18%;
+    margin: 0 auto;
+    position: absolute;
+    left: 28%;
+    top: 40%;
+  }
+  
+  .cloud-3 {
+    max-width: 14%;
+    margin: 0 auto;
+    position: absolute;
+    right: 10%;
+    top: 75%;
+  }
+  
+  .cloud-4 {
+    max-width: 15%;
+    margin: 0 auto;
+    position: absolute;
+    left: 25%;
+    top: 58%;
+  }
+  
+  .cloud-5 {
+    max-width: 20%;
+    margin: 0 auto;
+    position: absolute;
+    left: 55%;
+    top: 50%;
+  }
+
+
+}
+
 .middle-container {
   background-color: #c4edde;
   display: flex;
@@ -499,3 +560,14 @@ padding-bottom: 5%;
   background-color: #fae3d9 ;
 }
 
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: gray;
+}

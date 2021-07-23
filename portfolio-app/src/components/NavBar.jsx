@@ -12,8 +12,9 @@ function NavBar(){
     return( 
     <div className="NavBar">
         <div className="leftside">
+            <a href="/home"><HomeIcon /></a>
             <div className="links" id={showLinks ? "hidden" : ""}>
-                <a href="/home">Home</a>
+            
                 <a href="/About">About</a>
                 <a href="/Projects">Projects</a>
                 <a href="/travels">Travels</a>

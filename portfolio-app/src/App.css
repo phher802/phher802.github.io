@@ -31,10 +31,12 @@ button:hover {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+   
 }
 
 .NavBar .leftside .links {
     max-height: 200px;
+    flex-grow: 1;
 }
 
 
@@ -42,7 +44,7 @@ button:hover {
     text-decoration: none;
     color: white;
     font-size: 20px;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 .NavBar .leftside button{
@@ -78,19 +80,21 @@ button:hover {
     font-size: 16px;
 }
 
-@media only screen and (max-width: 880px){
-    .NavBar .leftside .links a {
-        font-size: 20px;
-    }
-}
-
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1000px){
     .NavBar .leftside .links a {
         font-size: 15px;
     }
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 700px){
+
+    .NavBar .leftside .links a {
+        font-size: 15px;
+    
+    }
+}
+
+@media only screen and (max-width: 850px){
     .NavBar .leftside button{
         display: flex;
     }
@@ -116,3 +120,4 @@ button:hover {
         font-size: 20px;
     }
 }
+
