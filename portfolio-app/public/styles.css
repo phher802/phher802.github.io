@@ -286,11 +286,20 @@ a:hover {
 }
 
 .bottom-container {
-  background-color: #c4edde;
+  background-color: #a6e3e9;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   margin: auto;
   padding: 3.125rem 0 1.25rem;
+}
+
+.footer-link {
+  margin: 1rem;
+}
+
+.footer-link a {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .btn {
@@ -311,7 +320,7 @@ a:hover {
 }
 
 .btn:hover {
-  background: #30e3cb;
+  background: #c4edde;
   /* background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -321,8 +330,11 @@ a:hover {
 }
 
 .copyright {
-  padding: 1.25rem 0;
-  color: #61c0bf;
+  margin-bottom: 0;
+  padding: 0;
+  color: grey;
+  font-size: 16px;
+  
 }
 
 .font-monts {
@@ -591,4 +603,5 @@ footer {
 
 footer p {
   color: gray;
+  font-size: 15px;
 }

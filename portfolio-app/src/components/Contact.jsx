@@ -5,7 +5,12 @@ function Contact(){
     <div className="bottom-container contact-me">
         <h1>Get in Touch</h1>
         <h3></h3>
-        <a class="btn" href="mailto: pher024@gmail.com">CONTACT ME</a>
+        <a className="btn" href="mailto: pher024@gmail.com">CONTACT ME</a>
+        <div className="footer-link">
+            <a href="https://www.linkedin.com/in/pa-houa-her-2a896885">LinkedIn</a>
+            <a href="https://github.com/phher802">GitHub</a>
+        </div>
+       
     </div>)
 }
 
