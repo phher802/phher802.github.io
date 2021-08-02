@@ -281,6 +281,10 @@ a:hover {
   padding-bottom: 10%;
 }
 
+.contact-me h1 {
+  padding-bottom: 2rem;
+}
+
 .my-interests {
   width: 60%;
 }
@@ -293,14 +297,6 @@ a:hover {
   padding: 3.125rem 0 1.25rem;
 }
 
-.footer-link {
-  margin: 1rem;
-}
-
-.footer-link a {
-  font-size: 20px;
-  font-weight: bold;
-}
 
 .btn {
   background: #3d84a8;
@@ -598,10 +594,21 @@ footer {
   left: 0;
   width: 100%;
   height: 2.5rem;
+  background-color: #a6e3e9;
   
 }
 
 footer p {
   color: gray;
   font-size: 15px;
+}
+
+.footer-link {
+  margin: 1rem;
+}
+
+
+.footer-link a {
+  font-size: 20px;
+  font-weight: bold;
 }

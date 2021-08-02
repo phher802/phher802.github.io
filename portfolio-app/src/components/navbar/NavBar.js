@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "NavBar.css"
+import "./NavBar.css"
 import ReorderIcon from '@material-ui/icons/Reorder';
 import SearchIcon from '@material-ui/icons/Search';
 import HomeIcon from '@material-ui/icons/Home';
